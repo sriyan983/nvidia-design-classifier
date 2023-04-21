@@ -1,0 +1,14 @@
+{
+	"config": {
+		"task": "diff",
+		"datasets": [
+			"2023q1",
+			"2023q2"
+		],
+		"labels": [
+            "None",
+			"Floral101",
+			"Floral102"
+        ]
+	}
+}

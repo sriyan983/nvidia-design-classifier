@@ -25,6 +25,16 @@ Modules:
 - Training module with a Tkinter based UI for interactivity and works standalone.
 - Live Inference module with a Tkinter based UI for interactivity and works standalone.
 
+To Run:
+1. First run the data collection application to collect data for different labels we have defined
+python data_collection.py
+2. Then run the training application to train the model through multiple iterations
+python train.py
+3. Finally run the classiifcation application to infer real time using a camera.
+python classify.py
+
+(Edit the json file based on your needs. You can also get the dataset and the model file from https://drive.google.com/drive/u/2/folders/1gvx24EeKoxC14XldWufA7lIufHK3073V)
+
 Notes: 
 
 - All the above applications run standalone and allows you to save different versions of models using Entry widget from Tkinter.

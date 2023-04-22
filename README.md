@@ -1,4 +1,4 @@
-This project is implementation made as part of NVidia's AI Specialist certification. The concept uses an image classification using ResNet18 (through transfer learning) and trains itself to classify different designs of gift boxes of packaging firm of mine. The classification results shall be used for automated printing of appropriate price tags and also assist in packing them as stacks assuring no shuffling to happen! 
+This project is implementation made as part of NVIDIA's AI Specialist certification. The concept uses an image classification using ResNet18 (through transfer learning) and trains itself to classify different designs of gift boxes of packaging firm of mine. The classification results shall be used for automated printing of appropriate price tags and also assist in packing them as stacks assuring no shuffling to happen! 
 
 The project uses the following,
 
@@ -18,6 +18,7 @@ Connections:
 - Mouse & Keyboard
 - Monitor
 - Ethernet cable 
+- Data cable to connect the linux host system to install JetPack and boot Jetson AGX Xavier. 
 
 Modules:
 - Datacollection module for creating the dataset with a Tkinter based UI for interactivity and works standalone.
@@ -31,8 +32,8 @@ Notes:
 
 Git Repo: https://github.com/sriyan983/nvidia-design-classifier.git
 
-Blog: TBA
+Blog: https://medium.com/@sriyan983/machine-learning-using-jetson-21df58787742
 
-Video: TBA
+Video: https://youtu.be/G-FMJRb_sVU
 
 

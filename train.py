@@ -41,24 +41,6 @@ global root
 global the_queue
 global trainThread
 
-def on_select():
-    print("---")
-    
-# def push(the_queue, epochs):
-#     print(type(the_queue), type(epochs))
-#     total_epocs = epochs
-#     i = 0
-#     while total_epocs > 0:
-#         print(("total_epocs : {0}".format(total_epocs), "total_epocs"))
-        
-#         the_queue.put(("prog", (i + 1) * 10))
-#         the_queue.put(("accu", float(i/10)))
-#         the_queue.put(("loss", float(i/100)))
-
-#         i = i + 1
-#         total_epocs = total_epocs - 1
-#         time.sleep(1)
-        
 def refresh_data():
         global the_queue
         global root
